@@ -1,17 +1,5 @@
-# packer-ansible
+DEPRECATED. No longer using this repo
 
-## Overview
-These are Ansible scripts used by packer builds to install common
-tools and utilities as well as perform some initial configuration
-and maintenance
-
-## Upgrades, configuration and maintenance
-
-* Upgrade kernel
-* Set timezone
-
-## Tools
-
-* Docker
-* OpenVPN
-* mysql utilities (client only)
+This repo used to be used as a git subtree from packer builds.
+It has been replaced by simpler playbooks and roles to replace the
+Anssible tasks that were here.
